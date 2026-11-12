@@ -1,0 +1,17 @@
+{
+  "name": "project-her-sync",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-11",
+  "workers_dev": true,
+  "vars": {
+    "GITHUB_OWNER": "niyati0830",
+    "GITHUB_REPO": "Project-HER-",
+    "GITHUB_BRANCH": "main"
+  },
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/", "/index.html", "/api/*", "/auth/*"]
+  }
+}
+
